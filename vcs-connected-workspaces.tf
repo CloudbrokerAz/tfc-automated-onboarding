@@ -40,6 +40,6 @@ module "vcs-connected-workspace" {
   vcsbranch             = each.value.vcsbranch
   vcsworkingdirectory   = each.value.vcsworkingdirectory
   // Github and Template specific
-  //github_owner = var.github_owner
-  //template_repo = var.template_repo
+  github_owner = var.github_owner
+  template_repo = var.template_repo
 }

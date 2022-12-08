@@ -72,16 +72,16 @@ variable "aws_default_region" {
 }
 
 variable "tfc_oauth_token" {
-  type = string
-  description = "Oauth token ID for VCS provider"
+  type              = string
+  description       = "Oauth token ID for VCS provider"
 }
 
 variable "github_owner" {
-  type = string
-  description = "github account to create new repo"
+  type              = string
+  description       = "github account to create new repo"
 }
 
 variable "template_repo" {
-  type = string
-  description = "github template repository for the new repo"
+  type              = string
+  description       = "github template repository for the new repo"
 }
