@@ -1,4 +1,3 @@
-##test123
 terraform {
   required_version = ">= 1.0"
   required_providers {
@@ -18,7 +17,6 @@ provider "github" {
   token = var.github_personal_token
 }
 
-
 locals {
   # Take a directory of YAML files, read each one that matches naming pattern and bring them in to Terraform's native data set
   inputvcsworkspacevar = [for f in fileset(path.module, "vcs-connected-workspaces/{workspace}*.yaml") : yamldecode(file(f))]
@@ -27,8 +25,6 @@ locals {
   inputvcsworkspacemap = { for workspace in toset(local.inputvcsworkspacevar) : workspace.name => workspace }
 
 }
-
-
 
 module "vcs-connected-workspace" {
   source  = "ausmartway/vcs-connected-workspace/tfe"
