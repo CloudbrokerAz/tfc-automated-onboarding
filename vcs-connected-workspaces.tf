@@ -31,7 +31,7 @@ locals {
 
 
 module "vcs-connected-workspace" {
-  source  = "ausmartway/tfc-config-as-code/tree/main/vcs-connected-workspaces"
+  source  = "ausmartway/vcs-connected-workspace/tfe"
   version = "0.0.4"
   # insert the 5 required variables here 
   for_each              = local.inputvcsworkspacemap
