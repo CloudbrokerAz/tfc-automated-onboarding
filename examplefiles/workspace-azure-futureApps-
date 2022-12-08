@@ -4,10 +4,7 @@ vcsbranch:
 vcsworkingdirectory: 
 description: Standing up a demo dcs
 tags:
-  - tfe
-  - aws
+  - tfc
+  - azure
   - autoinject
-  - awsconsumer
-  - optus
-  - team:akami
-  
+  - azureconsumer
