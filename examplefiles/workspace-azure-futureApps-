@@ -1,0 +1,13 @@
+name: dcs-demo
+version: 1.3.4
+vcsbranch: 
+vcsworkingdirectory: 
+description: Standing up a demo dcs
+tags:
+  - tfe
+  - aws
+  - autoinject
+  - awsconsumer
+  - optus
+  - team:akami
+  
