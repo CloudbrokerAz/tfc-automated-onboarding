@@ -1,0 +1,11 @@
+name: futureApp-azure-demo
+version: 1.3.4
+vcsbranch: test
+vcsworkingdirectory: 
+description: Standing up a demo future app in azure
+tags:
+  - tfc
+  - azure
+  - autoInject
+  - azureConsumer
+  
