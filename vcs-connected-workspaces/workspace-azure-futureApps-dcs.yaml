@@ -1,8 +1,8 @@
-name: -demo
+name: dcs-demo
 version: 1.3.4
 vcsbranch: 
 vcsworkingdirectory: 
-description: Standing up a demo for -demo
+description: Standing up a demo dcs
 tags:
   - tfc
   - azure
