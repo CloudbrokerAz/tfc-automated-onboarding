@@ -1,0 +1,10 @@
+name: dcs-demo
+version: 1.3.4
+vcsbranch: 
+vcsworkingdirectory: 
+description: Standing up a demo for -demo
+tags:
+  - tfc
+  - azure
+  - autoinject
+  - azureconsumer
