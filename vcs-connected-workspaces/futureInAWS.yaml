@@ -1,0 +1,9 @@
+name:                   the-future-app-in-aws
+version:                1.3.4
+vcsbranch: 
+vcsworkingdirectory: 
+description:            Deploying the future into AWS
+tags:
+                        - tfc
+                        - aws
+                        - auto-approve
