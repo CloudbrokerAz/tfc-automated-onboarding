@@ -1,0 +1,11 @@
+name: hcp-vault-deployment
+version: 1.3.4
+vcsbranch: 
+vcsworkingdirectory: 
+description: Deployment and base configuration of HCP Vault
+tags:
+  - tfc
+  - vault
+  - deployed
+  - configured
+  - tfc-config-as-code

@@ -6,3 +6,4 @@ description: Example of using workload identity in Terraform Cloud with Vault
 tags:
   - tfc
   - vault
+  - tfc-config-as-code

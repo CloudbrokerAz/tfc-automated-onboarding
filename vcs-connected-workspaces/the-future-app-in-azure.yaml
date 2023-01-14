@@ -1,4 +1,4 @@
-name: the-future-app-in-Azure
+name: the-future-app-in-azure
 version: 1.3.4
 vcsbranch: 
 vcsworkingdirectory: 
@@ -7,3 +7,4 @@ tags:
   - tfc
   - azure
   - auto-approve
+  - tfc-config-as-code
